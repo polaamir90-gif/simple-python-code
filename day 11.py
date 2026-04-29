@@ -11,6 +11,7 @@ print(f"Above Average: {above_average}")
 passed=np.sum([scores>=60])
 print(f"Passed: {passed}")
 """
+
 grades = np.array([
     [85, 90, 78],
     [92, 88, 95],
