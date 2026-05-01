@@ -20,8 +20,9 @@ print(f"Mean: {Mean:.1f} | Median: {Median:.1f}")
 print(f"Std: {Std:.1f}")
 print(f"Outliers: {outliers}")
 print(f"Correlation: {corr:.2f}")
-
+print(f"Variance: {np.var(scores)}")
 
 print("\n=== After Cleaning ===")
 print(f"Mean: {np.mean(clean):.1f} | Median: {np.median(clean):.1f}")
 print(f"Std: {np.std(clean):.1f}")
+print(f"Variance: {np.var(clean)}")
